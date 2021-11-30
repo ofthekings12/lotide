@@ -9,12 +9,12 @@ const assertEqual = function (actual, expected) {
 
 const findKey = function (obj, callback) {
   const theKeysToLookThrough = Object.keys(obj);
-  for (const key of theKeysToLookThrough) { // loop through the keys of the the obj you are searching for :)
-    let thingToTest = obj[key]; // this will  be something like { stars: 1 };
-    if (callback(thingToTest) === true) { // this callback() will say: if(thingToTest === thingImLookingFor) return true. EG if (theThingToTest.stars === 2 return true)
+  for (const key of theKeysToLookThrough) { 
+    let thingToTest = obj[key]; 
+    if (callback(thingToTest) === true) { 
       console.log('Found the key 😀', key);
       return key;
-    } else { // If we get here its because the callback() returned false so we can keep searching 😃
+    } else { 
       console.log('This is not they key 😩:', key, obj[key], callback(obj[key]));
     }
   }

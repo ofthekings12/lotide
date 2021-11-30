@@ -1,15 +1,15 @@
 const assertEqual = function (actual, expected) {
-  if (JSON.stringify(actual) === JSON.stringify(expected)) {
+  if (actual === expected) {
     console.log(
-      `✅✅✅ Assertion Passed: ${JSON.stringify(actual)} === ${JSON.stringify(
+      `✅✅✅ Assertion Passed: ${actual} === ${
         expected
-      )}`
+      }`
     );
   } else {
     console.log(
-      `❌❌❌ Assertion Failed: ${JSON.stringify(actual)} !=== ${JSON.stringify(
+      `❌❌❌ Assertion Failed: ${actual} !=== ${
         expected
-      )}`
+      }`
     );
   }
 };

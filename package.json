@@ -1,7 +1,7 @@
 {
-  "name": "lotide",
+  "name": "@ofthekings12/lotide",
   "version": "1.0.0",
-  "description": "Lotide",
+  "description": "A mini clone of the Lodash Library",
   "main": "assertArraysEqual.js",
   "directories": {
     "test": "test"
@@ -13,7 +13,7 @@
     "type": "git",
     "url": "git+https://ofthekings12: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@github.com/ofthekings12/lotide.git"
   },
-  "author": "",
+  "author": "Mikko De Los Reyes",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/ofthekings12/lotide/issues"
